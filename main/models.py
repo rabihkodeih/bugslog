@@ -42,7 +42,7 @@ class Issue(models.Model):
     severity        = models.ForeignKey('Severity', default=get_default_severity)
     state           = models.ForeignKey('State', default=get_default_state)
     def __unicode__(self):
-        return self.content
+        return self.title
 
 class Type(models.Model):
     content         = models.CharField(max_length=50)
