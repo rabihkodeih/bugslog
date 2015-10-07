@@ -23,4 +23,8 @@ An example config is as follows:
 		
 Whenever an issue is created or edited, a "Posted by" read-only field is filled by the currently logged in user. The issue can also be appointed to any user through the "Appointed to" field.
 
-	
+##Installation
+Clone repository then issue a `python manage.py syncdb` command.
+
+##Dependencies
+None
